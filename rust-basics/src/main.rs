@@ -1,4 +1,3 @@
-// main.rs
 fn main() {
     println!("=== Rust Basic Data Types Demo ===\n");
 
