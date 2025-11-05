@@ -1,1 +1,1 @@
-/Users/kawkoiharu/code/rust/two/target/debug/two: /Users/kawkoiharu/code/rust/two/src/main.rs
+/Users/kawkoiharu/code/rust/number-guessing-game/target/debug/two: /Users/kawkoiharu/code/rust/number-guessing-game/src/main.rs
