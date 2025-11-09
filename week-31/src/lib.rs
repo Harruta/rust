@@ -1,4 +1,3 @@
-use borsh::{BorshDeserialize, BorshSerialize};
 use solana_program::{
     account_info::next_account_info,
     config::program,
@@ -7,13 +6,7 @@ use solana_program::{
     msg,
     pubkey::{Pubkey, pubkey},
 };
-
-#[derive(BorshSerialize, BorshDeserialize)]
-
-enum InstructionType {
-    Increment(u32),
-    Decerement(u32),
-}
+#[derive(Borsh)]
 
 entrypoint!(counter_contract);
 
